@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;900&family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+
+@media screen and (max-width:400px) {
+    #box {
+        width: auto;
+    
+    }
+  #adv , #adv1 , #adv2{
+     display:none ;
+     }
+  #hr{
+     display: none;
+    }
+}
+
+@media screen and (min-width:400px){
+    #hr2 , #hr1{
+      display: none;
+    }
+    #box{
+        width:60% ;
+    }
+
+}
+
+
+body{
+    background-color:hsl(0, 0%, 86%);
+}
+
+
+#h31{
+    color:  hsl(0, 1%, 44%);
+    font-size: small;
+    display: inline-flex;
+    margin-left:5% ;
+}
+
+
+#h32{
+    color:  hsl(0, 1%, 44%);
+    font-size: small;
+    display: inline-flex;
+    margin-left: 20%;
+   
+
+}
+
+
+#h33{
+    color:  hsl(0, 1%, 44%);
+    font-size: small;
+    margin-left:20% ;
+    display: inline-flex;
+}
+
+
+#box{
+    position: relative;
+    margin-right:1% ;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: 8% auto 0% auto;
+    max-width: 750px;
+    width:auto;
+    height: 450px;
+    border-bottom-right-radius:30% ;
+}
+
+
+
+input{
+    margin-bottom: 0%;
+    border-style: groove;
+    color:  hsl(0, 0%, 0%);
+    border-color: rgb(245, 243, 243);
+    font-size: 22px;
+    font-weight: 600;
+    display: inline-flex;
+    width:20% ;
+    height:40px;
+    margin-inline-start: 4%;
+    padding-left: 10px;
+    border-radius:15% ;
+   
+}
+
+#hr{
+    width: 92%;
+}
+
+#hr1,#hr2{
+    width:50% ;
+}
+
+#icon {
+    position: static;
+    padding-left:15px;
+    margin-top:5% ;
+    background-color: hsl(259, 100%, 65%) ;
+    width: 40px;
+    border-radius:50% ;
+    cursor: pointer;   
+}
+
+h2{
+    margin-top: 0PX;
+    margin-bottom: 0PX;
+    margin-inline-start:8% ;
+    font-size:65px ;
+    font-weight: 900;
+    color: hsl(0, 0%, 8%);
+}
+
+
+#result , #result1, #result2 {   
+    color:hsl(259, 100%, 65%);
+}
+
+#adv{
+   position:absolute;
+   top:17% ;
+   left:60% ;
+   color: hsl(0, 100%, 67%);
+}
+
+
+#adv1{
+    position:absolute;
+    top:17% ;
+    left:32% ;
+     color: hsl(0, 100%, 67%);
+ }
+
+ 
+ #adv2{
+    position:absolute;
+    top:17% ;
+    left:5% ;
+     color: hsl(0, 100%, 67%);
+ }
